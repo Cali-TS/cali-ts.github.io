@@ -6,7 +6,12 @@ body{
   background: #000000;
   font-family: MONTSERRAT;
   overflow-x: hidden;
+  font-family: Myriad Pro;
+}
 
+*{
+  margin: auto;
+  text-align: center;
 }
 
 .background{
@@ -119,6 +124,7 @@ body{
   display: flex;
   align-items: center;
   margin-top: 50px;
+  flex-direction: row;
 }
 
 
@@ -147,10 +153,34 @@ body{
   }
 }
 
+@media screen and (max-width:857px) {
+  .contenr{
+    flex-direction: column;
+  }
+  .content{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:857px) {
+  .content{
+    width: 100%;
+  }
+}
 
 
 @media screen and (max-width: 750px) {
   .p{
     width: 90%;
   }
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Myriad Pro;
+  src: url(../Myriad\ Pro\ Bold\ SemiExtended.ttf);                   
 }
