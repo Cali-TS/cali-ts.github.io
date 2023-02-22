@@ -5,6 +5,9 @@ let about = document.getElementById("About_us")
 
 
 
+
+
+
 const myTimeout = setTimeout(myGreeting, 1000);
         function myGreeting() {
 
@@ -309,3 +312,15 @@ $(document).ready(function(){
                       $(".text-goal-4").removeClass("goal-h");
          });
 });
+
+
+
+
+
+
+
+
+
+
+
+
